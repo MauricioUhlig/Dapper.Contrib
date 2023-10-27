@@ -13,6 +13,8 @@ namespace Dapper.Tests.Contrib
     // the entire set of tests without declarations per method
     // If we want to support a new provider, they need only be added here - not in multiple places
 
+
+    // Just a test
     [XunitTestCaseDiscoverer("Dapper.Tests.SkippableFactDiscoverer", "Dapper.Tests.Contrib")]
     [AttributeUsage(AttributeTargets.Method, AllowMultiple = false)]
     public class SkippableFactAttribute : FactAttribute
